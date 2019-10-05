@@ -14,6 +14,7 @@ if ($jum == 1) {
 
     $response['name'] = $validate["name"];
     $response['api'] = $validate['api'];
+    $response['money'] = $validate['money'];
 
     echo json_encode($response);
 } else {

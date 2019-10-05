@@ -2,7 +2,7 @@
 
 include('inc/config.php');
 
-$query = $db->query("SELECT * FROM dispenser");
+$query = $db->query("SELECT * FROM dispenser ORDER BY remain DESC");
 $response = array();
 
 while ($row = mysqli_fetch_assoc($query)) {
