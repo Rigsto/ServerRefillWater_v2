@@ -1,8 +1,6 @@
 <?php
 include('inc/config.php');
 
-//$email = $_POST['email'];
-//$pass = $_POST['password'];
 $email = $_GET['email'];
 $pass = $_GET['pass'];
 
@@ -14,11 +12,8 @@ $response = array();
 if ($jum == 1) {
     $response['code'] = 1;
 
-    $user = array();
-    $user["name"] = $validate["name"];
-    $user["api"] = $validate["spi"];
-
-    $response['profile'] = $user;
+    $response['name'] = $validate["name"];
+    $response['api'] = $validate['api'];
 
     echo json_encode($response);
 } else {
