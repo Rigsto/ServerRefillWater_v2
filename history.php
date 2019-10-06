@@ -16,8 +16,16 @@ $response['history'] = array();
 while ($row = mysqli_fetch_assoc($history)) {
     $his = array();
     $his['type'] = $row['type'];
-    $his['balance'] = $row['balance'];
-    $his['size'] = $row['size'];
+
+    $size = $row['size'];
+    if ($row['type'] == "refill") {
+        $q = $db->query("SELECT price FROM refill_price WHERE size=$size");
+        $his['balance'] = mysqli_fetch_assoc($q)['price'];
+    } else {
+        $his['balance'] = $row['balance'];
+    }
+
+    $his['size'] = $size;
 
     $dis_id = $row['dispenser_id'];
     $dispenser = $db->query("SELECT place, floor FROM dispenser WHERE id=$dis_id");
@@ -25,7 +33,7 @@ while ($row = mysqli_fetch_assoc($history)) {
     $his['dispenser_place'] = $row2['place'];
     $his['dispenser_floor'] = $row2['floor'];
 
-    $his['time'] = $row2['time'];
+    $his['time'] = $row['time'];
 
     array_push($response['history'], $his);
 }
