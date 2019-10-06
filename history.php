@@ -1,9 +1,6 @@
 <?php
 
 include('inc/config.php');
-require 'carbon/autoload.php';
-
-use Carbon\Carbon;
 
 $api = $_GET['api'];
 
@@ -16,7 +13,7 @@ $jum = mysqli_num_rows($history);
 $response['total'] = $jum;
 
 $response['history'] = array();
-while ($row = mysqli_fetch_assoc($query)) {
+while ($row = mysqli_fetch_assoc($history)) {
     $his = array();
     $his['type'] = $row['type'];
     $his['balance'] = $row['balance'];
@@ -28,7 +25,7 @@ while ($row = mysqli_fetch_assoc($query)) {
     $his['dispenser_place'] = $row2['place'];
     $his['dispenser_floor'] = $row2['floor'];
 
-    $his['time'] = Carbon::parse($row2['time'])->diffForHumans();
+    $his['time'] = $row2['time'];
 
     array_push($response['history'], $his);
 }
