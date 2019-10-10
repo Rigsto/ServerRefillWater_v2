@@ -7,6 +7,7 @@ $query = $db->query("SELECT * FROM refill_price");
 $response['prices'] = array();
 while ($row = mysqli_fetch_assoc($query)) {
     $dis = array();
+    $ids['id'] = $row['id'];
     $dis['size'] = $row['size'];
     $dis['price'] = $row['price'];
 
