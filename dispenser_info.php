@@ -12,8 +12,8 @@ $response = array();
 if ($jum == 1) {
     $response['code'] = 1;
 
-    $response['place'] = $validate["place"];
-    $response['floor'] = $validate['floor'];
+    $response['place'] = $dispenser["place"];
+    $response['floor'] = $dispenser['floor'];
 
     echo json_encode($response);
 } else {
