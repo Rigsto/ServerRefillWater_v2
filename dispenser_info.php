@@ -2,9 +2,9 @@
 
 include('inc/config.php');
 
-$code = $_GET['code'];
+$id = $_GET['id'];
 
-$query = $db->query("SELECT * FROM dispenser WHERE id=$code");
+$query = $db->query("SELECT * FROM dispenser WHERE id = $id");
 $jum = mysqli_num_rows($query);
 $dispenser = mysqli_fetch_assoc($query);
 $response = array();
