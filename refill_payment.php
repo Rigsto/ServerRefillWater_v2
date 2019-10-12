@@ -17,17 +17,14 @@ $price = mysqli_fetch_assoc($refill)['price'];
 $dispenser = $db->query("SELECT remain FROM dispenser WHERE id=$dispenser_id");
 $remain = mysqli_fetch_assoc($dispenser)['remain'];
 $updateremain = $db->query("UPDATE dispenser SET remain=($remain-$price) WHERE id=$dispenser_id");
-$runupdateremain = mysqli_fetch_assoc($updateremain);
 
 $timestamp = date("Y-m-d H:i:s");
 $history = $db->query("INSERT INTO `history` VALUES (NULL, $id, 'refill', $dispenser_id, NULL, $size, $timestamp)");
-$runhistory = mysqli_fetch_assoc($history);
 
 $user = $db->query("UPDATE `user` SET money=($money-$price) WHERE id=$id");
-$runuser = mysqli_fetch_assoc($user);
 
 $response = array();
-if ($runupdateremain == 1 && $runhistory == 1 && $runuser == 1) {
+if ($updateremain == 1 && $history == 1 && $user == 1) {
     $response['code'] = 1;
 } else {
     $response['code'] = 0;

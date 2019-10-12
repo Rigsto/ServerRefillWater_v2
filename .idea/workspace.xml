@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="704a5ce8-fb56-4e40-8254-7562b45f84f0" name="Default Changelist" comment="payment v5">
-      <change afterPath="$PROJECT_DIR$/refill_payment.php" afterDir="false" />
+    <list default="true" id="704a5ce8-fb56-4e40-8254-7562b45f84f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +71,7 @@
       <workItem from="1570422790925" duration="1301000" />
       <workItem from="1570430239557" duration="635000" />
       <workItem from="1570694904345" duration="8194000" />
-      <workItem from="1570868931472" duration="3325000" />
+      <workItem from="1570868931472" duration="3933000" />
     </task>
     <task id="LOCAL-00001" summary="login v1">
       <created>1570284810516</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570716754718</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="payment v5">
+      <created>1570873926448</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570873926448</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
