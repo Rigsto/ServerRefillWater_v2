@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="704a5ce8-fb56-4e40-8254-7562b45f84f0" name="Default Changelist" comment="">
+    <list default="true" id="704a5ce8-fb56-4e40-8254-7562b45f84f0" name="Default Changelist" comment="payment v5">
+      <change afterPath="$PROJECT_DIR$/refill_payment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price.php" beforeDir="false" afterPath="$PROJECT_DIR$/price.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,8 @@
       <workItem from="1570281808754" duration="18969000" />
       <workItem from="1570422790925" duration="1301000" />
       <workItem from="1570430239557" duration="635000" />
-      <workItem from="1570694904345" duration="6983000" />
+      <workItem from="1570694904345" duration="8194000" />
+      <workItem from="1570868931472" duration="3325000" />
     </task>
     <task id="LOCAL-00001" summary="login v1">
       <created>1570284810516</created>
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570706361903</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="payment v4">
+      <created>1570716754717</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570716754718</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +181,9 @@
     <MESSAGE value="payment v1" />
     <MESSAGE value="payment v2" />
     <MESSAGE value="payment v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment v3" />
+    <MESSAGE value="payment v4" />
+    <MESSAGE value="payment v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment v5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
