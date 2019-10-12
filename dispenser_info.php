@@ -10,8 +10,7 @@ $dispenser = mysqli_fetch_assoc($query);
 $response = array();
 
 if ($jum == 1) {
-    $response['code'] = 1;
-
+    $response['code'] = $id;
     $response['place'] = $dispenser["place"];
     $response['floor'] = $dispenser['floor'];
 
