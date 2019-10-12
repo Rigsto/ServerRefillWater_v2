@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="704a5ce8-fb56-4e40-8254-7562b45f84f0" name="Default Changelist" comment="" />
+    <list default="true" id="704a5ce8-fb56-4e40-8254-7562b45f84f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wallet_money.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
       <workItem from="1570422790925" duration="1301000" />
       <workItem from="1570430239557" duration="635000" />
       <workItem from="1570694904345" duration="8194000" />
-      <workItem from="1570868931472" duration="6197000" />
+      <workItem from="1570868931472" duration="8297000" />
     </task>
     <task id="LOCAL-00001" summary="login v1">
       <created>1570284810516</created>
@@ -176,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570879344412</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="payment v9">
+      <created>1570879764480</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570879764480</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +221,8 @@
     <MESSAGE value="payment v6" />
     <MESSAGE value="payment v7" />
     <MESSAGE value="payment v8" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment v8" />
+    <MESSAGE value="payment v9" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment v9" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
